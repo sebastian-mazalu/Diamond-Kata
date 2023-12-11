@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondKata", "DiamondKata\DiamondKata.csproj", "{1AB4CA9D-28AE-43E2-BA59-46574B7E13AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondGame", "DiamondGame\DiamondGame.csproj", "{54E9B686-5A25-4288-B4C5-1922BE90FC62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondConsolePresenter", "DiamondConsolePresenter\DiamondConsolePresenter.csproj", "{6DB61DC9-C0AB-48E7-8D74-960D8171C67F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiamondGameTests", "DiamondGameTests\DiamondGameTests.csproj", "{F53819F6-9570-4DA0-BD8A-3CAF7CA1E977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0B673271-5ECF-457E-8016-68A022A8749D}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+		..\ArchitectRoles.md = ..\ArchitectRoles.md
+		..\README.md = ..\README.md
+		..\README2.md = ..\README2.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB4CA9D-28AE-43E2-BA59-46574B7E13AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB4CA9D-28AE-43E2-BA59-46574B7E13AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB4CA9D-28AE-43E2-BA59-46574B7E13AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB4CA9D-28AE-43E2-BA59-46574B7E13AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54E9B686-5A25-4288-B4C5-1922BE90FC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54E9B686-5A25-4288-B4C5-1922BE90FC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54E9B686-5A25-4288-B4C5-1922BE90FC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54E9B686-5A25-4288-B4C5-1922BE90FC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DB61DC9-C0AB-48E7-8D74-960D8171C67F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DB61DC9-C0AB-48E7-8D74-960D8171C67F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DB61DC9-C0AB-48E7-8D74-960D8171C67F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DB61DC9-C0AB-48E7-8D74-960D8171C67F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F53819F6-9570-4DA0-BD8A-3CAF7CA1E977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F53819F6-9570-4DA0-BD8A-3CAF7CA1E977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F53819F6-9570-4DA0-BD8A-3CAF7CA1E977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F53819F6-9570-4DA0-BD8A-3CAF7CA1E977}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B9913383-8873-4D45-AA1A-504C443BF650}
+	EndGlobalSection
+EndGlobal
