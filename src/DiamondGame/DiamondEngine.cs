@@ -4,6 +4,14 @@ namespace DiamondGame;
 
 public class DiamondEngine(IDiamondLetterReader diamondLetterReader, IDiamondGenerator diamondGenerator, IDiamondPresenter diamondPresenter)
 {
+	internal const string ArgsDiamondLetterReaderNullExceptionMessage = $"Value cannot be null. (Parameter '{nameof(diamondLetterReader)}')";
+	internal const string ArgsDiamondGeneratorNullExceptionMessage = $"Value cannot be null. (Parameter '{nameof(diamondGenerator)}')";
+	internal const string ArgsDiamondPresenterNullExceptionMessage = $"Value cannot be null. (Parameter '{nameof(diamondPresenter)}')";
+	internal const string InvalidDiamondSolutionExceptionMessage = "Diamond solution was not found. Please generate diamond first by calling GenerateDiamond method";
+
+	internal char DiamondLetter => diamondLetter;
+	internal string Diamon => diamond;
+
 	private char diamondLetter = default;
 	private string diamond;
 
@@ -25,7 +33,7 @@ public class DiamondEngine(IDiamondLetterReader diamondLetterReader, IDiamondGen
 	{
 		if (diamond == null)
 		{
-			throw new InvalidOperationException("Diamond solution was not found. Please generate diamond first by calling GenerateDiamond method");
+			throw new InvalidOperationException(InvalidDiamondSolutionExceptionMessage);
 		}
 
 		diamondPresenter.DisplayDiamond(diamond);
